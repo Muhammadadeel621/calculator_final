@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
+h1 {
+    text-align: center;
+    background-color: #03506f;
+    color: white;
+    display: block;
+    margin-bottom: 50px;
+}
+
+button {
+    border: none;
+    margin: 2px;
+    font-size: 21px;
+    width: 66px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f8f1f1;
+    box-shadow: 2px 2px 2px black;
+}
+
+.col {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.row {
+    align-items: center;
+}
+
+.text {
+    font-size: 10px;
+    font-family: cursive;
+    text-align: end;
+    margin-top: 9px;
+}
+
+.container {
+    border-radius: 5px;
+}

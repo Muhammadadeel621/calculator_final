@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Basic Calculator</h1>
+
+    <body>
+        <div class="container" style="width: 350px; height:400px; background-color: gainsboro;">
+            <div class="row">
+                <input disabled type="text" id="input" style="width: 280px; height: 50px; margin: 0 auto; margin-top: 20px; background-color: gray;">
+            </div>
+            <div class="row mt-4 p-1" style="background-color: #03506f; height: 70%;">
+                <div class="col"><button onclick="calculating('7')">7</button></div>
+                <div class="col"><button onclick="calculating('8')">8</button></div>
+                <div class="col"><button onclick="calculating('9')">9</button></div>
+                <div class="col"><button onclick="calculating('/')">/</button></div>
+                <div class="col"><button onclick="calculating('4')">4</button></div>
+                <div class="col"><button onclick="calculating('5')">5</button></div>
+                <div class="col"><button onclick="calculating('6')">6</button></div>
+                <div class="col"><button onclick="calculating('*')">X</button></div>
+                <div class="col"><button onclick="calculating('1')">1</button></div>
+                <div class="col"><button onclick="calculating('2')">2</button></div>
+                <div class="col"><button onclick="calculating('3')">3</button></div>
+                <div class="col"><button onclick="calculating('-')">-</button></div>
+                <div class="col"><button onclick="calculating('0')">0</button></div>
+                <div class="col"><button onclick="Operation()">=</button></div>
+                <div class="col"><button onclick="clearall()">C</button></div>
+                <div class="col"><button onclick="calculating('+')">+</button></div>
+            </div>
+
+        </div>
+
+
+        <script src="app.js "></script>
+    </body>
